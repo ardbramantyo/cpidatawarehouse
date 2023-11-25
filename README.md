@@ -7,4 +7,4 @@ ERD Design for XYW Group:
 Bellow is Data Integration process with Pentaho:
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
 
-[<image src="https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/841054ef-e3c0-47dc-9136-2cba02aa416d">](https://www.credential.net/c50f7231-23db-44f5-8c62-1558e836c683#gs.1e25zf)
+[<image src="https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/f4291ccd-06ce-47f0-8b73-d808963d4232">](https://www.credential.net/c50f7231-23db-44f5-8c62-1558e836c683#gs.1e25zf)
