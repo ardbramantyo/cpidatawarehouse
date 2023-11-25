@@ -1,4 +1,4 @@
-`5555# End to End Enterprise Data Warehouse for CPI Card Group
+# End to End Enterprise Data Warehouse for CPI Card Group
 Embark on the XYW Group's comprehensive data warehouse venture. From schema design and table creation to Pentaho integration and advanced SQL analytics, witness dynamic BI dashboards that empower strategic decisions.
 
 ERD Design for XYW Group:
