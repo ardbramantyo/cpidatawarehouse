@@ -1,4 +1,4 @@
-# End-to-End Enterprise Data Warehouse Development for CPI Card Group
+## End-to-End Enterprise Data Warehouse Development for CPI Card Group
 Embark on the XYW Group's comprehensive data warehouse venture. From schema design and table creation to Pentaho integration and advanced SQL analytics, witness dynamic BI dashboards that empower strategic decisions.
 
 ERD Design for XYW Group:
@@ -7,7 +7,7 @@ ERD Design for XYW Group:
 Bellow is Data Integration process with Pentaho:
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
 
-__MicroStrategy Dossier:__
+:-: __MicroStrategy Dossier:__
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/46f00991-6053-4a9e-b21d-1f7a0c17c455)
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
