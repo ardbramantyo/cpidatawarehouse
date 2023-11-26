@@ -12,5 +12,5 @@ __MicroStrategy Dossier__
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
 
-[<image src="https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/c7036116-ec13-414f-b405-36d72c38bf2b">](https://www.coursera.org/account/accomplishments/specialization/DZR9THCTSPBR)
+[<image src="https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/01f4a6cc-18dd-4e9e-96b3-6d957ea2d09d">](https://www.coursera.org/account/accomplishments/specialization/DZR9THCTSPBR)
 [<image src="https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/f4291ccd-06ce-47f0-8b73-d808963d4232">](https://www.credential.net/c50f7231-23db-44f5-8c62-1558e836c683#gs.1e25zf)
