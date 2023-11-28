@@ -27,8 +27,11 @@ _Picture 2. ERD Design for CPI Card Group_
 ### ETL Process with Pentaho:
 - Utilize Pentaho Data Integration for seamless ETL processes.
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/75421afb-fc73-4fbe-826b-bfbfb63abccf)
+_Picture 3. Integration scenario_
 
 - Extract, transform, and load marketing data into the central fact table, ensuring data consistency and accuracy.
+![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
+_Picture 4. Data Integration process with Pentaho_
 
 Advanced Analytical Queries:
 - Leverage advanced analytical queries for profound insights.
@@ -55,9 +58,6 @@ Benefits for the Company:
 
 This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
 
-
-
-![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/891e8b63-5377-47d6-b484-98e0e6bed93a)
 
 Bellow is Data Integration process with Pentaho:
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
