@@ -20,7 +20,9 @@ _Picture 1. Data Sources at the CPI Card Group Data Warehouse_
 - Identify key dimensions like time, location, sales class, and customers, anchoring them to a central fact table capturing holistic business metrics.
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/891e8b63-5377-47d6-b484-98e0e6bed93a)
 
-ETL Process with Pentaho:
+_Picture 2. ERD Design for XYW Group_
+
+### ETL Process with Pentaho:
 - Utilize Pentaho Data Integration for seamless ETL processes.
 - Extract, transform, and load marketing data into the central fact table, ensuring data consistency and accuracy.
 
@@ -50,7 +52,7 @@ Benefits for the Company:
 This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
 
 
-ERD Design for XYW Group:
+
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/891e8b63-5377-47d6-b484-98e0e6bed93a)
 
 Bellow is Data Integration process with Pentaho:
