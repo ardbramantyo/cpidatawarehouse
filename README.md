@@ -36,6 +36,41 @@ _Picture 4. Data Integration process with Pentaho_
 
 ### Advanced Analytical Queries:
 - Leverage advanced analytical queries for profound insights.
+```
+CREATE VIEW view_location_invoice_revenue_summary AS
+SELECT
+A.location_id
+,E.location_name
+,F.time_year AS contract_year
+,F.time_month AS contract_month
+,A.job_id
+,A.unit_price
+,A.quantity_ordered
+,SUM(D.invoice_amount) AS sum_invoice_amount
+,SUM(D.invoice_quantity) AS sum_invoice_quantity
+FROM
+w_job_f A
+JOIN
+w_sub_job_f B ON A.job_id = B.job_id
+JOIN
+w_job_shipment_f C ON B.sub_job_id = C.sub_job_id
+JOIN
+w_invoiceline_f D ON C.invoice_id = D.invoice_id
+JOIN
+w_location_d E ON A.location_id = E.location_id
+JOIN
+w_time_d F ON A.contract_date = F.time_id
+GROUP BY
+A.location_id
+,E.location_name
+,F.time_year
+,F.time_month
+,A.job_id
+,A.unit_price
+,A.quantity_ordered
+ORDER BY
+A.location_id, F.time_year, F.time_month, A.job_id;
+```
 - Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
 - Evaluate financial performance, gross margins, and profitability by location and product.
 
