@@ -74,12 +74,7 @@ _Picture 5. Location invoice revenue summary_
 - Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
 - Evaluate financial performance, gross margins, and profitability by location and product.
 
-### Actionable Outputs:
-- Identify high-performing sales agents and locations for targeted strategies.
-- Optimize production timelines by analyzing production and shipment trends.
-- Improve financial forecasting based on cost variations and challenging-to-budget products.
-
-### MicroStrategy Dossier Creation:
+### MicroStrategy Dossier Creation
 - Use MicroStrategy to craft advanced dashboards.
 - Develop interactive visualizations highlighting key performance indicators, revenue trends, and cost breakdowns.
 - Include drill-down features for detailed analysis.
@@ -87,20 +82,23 @@ _Picture 5. Location invoice revenue summary_
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
 
-### Benefits for the Company:
-- Improved Decision-Making: Enable business analysts for informed decisions with self-service reporting, responding rapidly to market changes.
-- Cost Optimization: Identify cost-effective machine types and streamline production based on historical data, reducing operational expenses.
-- Enhanced Sales Strategies: Target marketing efforts effectively based on historical data, aligning with successful leads and converted jobs.
-- Scalability and Future Growth: Design a scalable solution for growing data volumes and reporting needs, positioning for future growth.
-- User Empowerment: Empower business analysts with self-service reporting tools and user-friendly dashboards, reducing IT reliance.
-- Strategic Insights: Provide executives with strategic insights into market trends, customer preferences, and industry benchmarks.
+### Actionable Outputs
+- Identify high-performing sales agents and locations for targeted strategies.
+- Optimize production timelines by analyzing production and shipment trends.
+- Improve financial forecasting based on cost variations and challenging-to-budget products.
+
+### Benefits for the Company
+- __Improved Decision-Making:__ Enable business analysts for informed decisions with self-service reporting, responding rapidly to market changes.
+- __Cost Optimization:__ Identify cost-effective machine types and streamline production based on historical data, reducing operational expenses.
+- __Enhanced Sales Strategies:__ Target marketing efforts effectively based on historical data, aligning with successful leads and converted jobs.
+- __Scalability and Future Growth:__ Design a scalable solution for growing data volumes and reporting needs, positioning for future growth.
+- __User Empowerment:__ Empower business analysts with self-service reporting tools and user-friendly dashboards, reducing IT reliance.
+- __Strategic Insights:__ Provide executives with strategic insights into market trends, customer preferences, and industry benchmarks.
 
 This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
 
-__MicroStrategy Dossier__
-![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/46f00991-6053-4a9e-b21d-1f7a0c17c455)
-![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
-![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
+## Accomplishment
+The above project is a Capstone project to get the Data Warehousing for Business Intelligence Specialization certification and to complete the mastery of using MicroStrategy, I took and passed for MicroStrategy certification.
 
 [<image src="https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/01f4a6cc-18dd-4e9e-96b3-6d957ea2d09d">](https://www.coursera.org/account/accomplishments/specialization/DZR9THCTSPBR)
 [<image src="https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/f4291ccd-06ce-47f0-8b73-d808963d4232">](https://www.credential.net/c50f7231-23db-44f5-8c62-1558e836c683#gs.1e25zf)
