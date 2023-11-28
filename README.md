@@ -12,7 +12,8 @@ Within their triumphant journey, CPI faces the complex intricacies of their oper
  - Source marketing data from the marketing department, including leads, quotes, and success rates.
  - Collect financial data from the accounting department, encompassing costs, invoices, and sales summaries.
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/6eaaf87b-db52-4634-88f0-1b02b5ccf540)
-Picture 1. Data Sources at the CPI Card Group Data Warehouse
+
+_Picture 1. Data Sources at the CPI Card Group Data Warehouse_
 
 ### Data Modeling
 - Design a constellation schema for the data warehouse.
