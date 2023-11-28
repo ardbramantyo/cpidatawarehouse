@@ -39,15 +39,15 @@ _Picture 4. Data Integration process with Pentaho_
 ```
 CREATE VIEW view_location_invoice_revenue_summary AS
 SELECT
- A.location_id
-,E.location_name
-,F.time_year AS contract_year
-,F.time_month AS contract_month
-,A.job_id
-,A.unit_price
-,A.quantity_ordered
-,SUM(D.invoice_amount) AS sum_invoice_amount
-,SUM(D.invoice_quantity) AS sum_invoice_quantity
+     A.location_id
+    ,E.location_name
+    ,F.time_year AS contract_year
+    ,F.time_month AS contract_month
+    ,A.job_id
+    ,A.unit_price
+    ,A.quantity_ordered
+    ,SUM(D.invoice_amount) AS sum_invoice_amount
+    ,SUM(D.invoice_quantity) AS sum_invoice_quantity
 FROM w_job_f A
 JOIN w_sub_job_f B ON A.job_id = B.job_id
 JOIN w_job_shipment_f C ON B.sub_job_id = C.sub_job_id
@@ -55,24 +55,58 @@ JOIN w_invoiceline_f D ON C.invoice_id = D.invoice_id
 JOIN w_location_d E ON A.location_id = E.location_id
 JOIN w_time_d F ON A.contract_date = F.time_id
 GROUP BY
- A.location_id
-,E.location_name
-,F.time_year
-,F.time_month
-,A.job_id
-,A.unit_price
-,A.quantity_ordered
+    A.location_id
+   ,E.location_name
+   ,F.time_year
+   ,F.time_month
+   ,A.job_id
+   ,A.unit_price
+   ,A.quantity_ordered
 ORDER BY
- A.location_id
-,F.time_year
-,F.time_month
-,A.job_id;
+    A.location_id
+   ,F.time_year
+   ,F.time_month
+   ,A.job_id;
 ```
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/fb3c91ce-8f1b-4da9-94b2-752bfb49dc6e)
 
-_Picture 5. Location invoice revenue summary_
-- Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
+_Picture 5. Rank locations by sum of business days delayed for the job shipped by date_
+
+- Analyze trends over time using Analytical queries.
+```
+SELECT
+     A.location_name
+    ,B.time_year AS year_of_date_ship_by
+    ,SUM(A.days_diff_first_shipment_ship_by)
+    ,RANK() OVER(PARTITION BY A.location_name ORDER BY SUM(A.days_diff_first_shipment_ship_by) DESC) AS rank
+FROM view_first_shipment_delays_involving_shipped_by_date A
+JOIN w_time_d B ON A.date_ship_by = B.time_id
+GROUP BY A.location_name, year_of_date_ship_by;
+```
+![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/e905e8df-9047-45f2-b756-ec8d34a32153)
+
+_Picture 6. Location invoice revenue summary_
+
 - Evaluate financial performance, gross margins, and profitability by location and product.
+```
+SELECT
+     A.location_name
+    ,A.contract_year
+    ,A.contract_month
+    ,ROUND(SUM((A.sum_invoice_amount - B.sum_total) / A.sum_invoice_amount), 2) AS profit_margin
+    ,RANK() OVER(PARTITION BY A.location_name, A.contract_year ORDER BY SUM(A.sum_invoice_amount - B.sum_total) DESC) AS rank
+FROM
+    view_location_invoice_revenue_summary A
+JOIN
+    view_location_subjob_cost_summary B ON A.job_id = B.job_id
+GROUP BY
+     A.location_name
+    ,A.contract_year
+    ,A.contract_month;
+```
+![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/adb40c83-4b72-4d22-91bd-ec2a478b2e72)
+
+_Picture 7. Rank locations by descending annual profit margin_
 
 ### MicroStrategy Dossier Creation
 - Use MicroStrategy to craft advanced dashboards.
