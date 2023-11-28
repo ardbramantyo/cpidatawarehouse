@@ -35,7 +35,7 @@ _Picture 3. Integration scenario_
 _Picture 4. Data Integration process with Pentaho_
 
 ### Advanced Analytical Queries:
-- Leverage advanced analytical queries for profound insights.
+- Develop view tables for revenue, job summarization insights.
 ```
 CREATE VIEW view_location_invoice_revenue_summary AS
 SELECT
@@ -69,7 +69,7 @@ ORDER BY
 ,A.job_id;
 ```
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/fb3c91ce-8f1b-4da9-94b2-752bfb49dc6e)
-
+_Picture 5. Location invoice revenue summary_
 - Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
 - Evaluate financial performance, gross margins, and profitability by location and product.
 
