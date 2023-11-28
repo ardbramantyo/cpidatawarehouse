@@ -102,3 +102,5 @@ The above project is a Capstone project to get the Data Warehousing for Business
 
 [<image src="https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/01f4a6cc-18dd-4e9e-96b3-6d957ea2d09d">](https://www.coursera.org/account/accomplishments/specialization/DZR9THCTSPBR)
 [<image src="https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/f4291ccd-06ce-47f0-8b73-d808963d4232">](https://www.credential.net/c50f7231-23db-44f5-8c62-1558e836c683#gs.1e25zf)
+[<image src="https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/ddee478e-56f7-4981-b2c8-65ccafbd684a">](https://www.credential.net/781b7bd4-409d-40fb-9b5a-073b623ebf01#gs.1i831a)
+
