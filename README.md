@@ -13,6 +13,7 @@ Within their triumphant journey, CPI faces the complex intricacies of their oper
  - Collect financial data from the accounting department, encompassing costs, invoices, and sales summaries.
 
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/6eaaf87b-db52-4634-88f0-1b02b5ccf540)
+
 _Picture 1. Data Sources at the CPI Card Group Data Warehouse_
 
 ### Data Modeling
