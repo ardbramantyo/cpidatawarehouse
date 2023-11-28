@@ -27,28 +27,29 @@ _Picture 2. ERD Design for CPI Card Group_
 ### ETL Process with Pentaho:
 - Utilize Pentaho Data Integration for seamless ETL processes.
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/75421afb-fc73-4fbe-826b-bfbfb63abccf)
+
 _Picture 3. Integration scenario_
 
 - Extract, transform, and load marketing data into the central fact table, ensuring data consistency and accuracy.
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
 _Picture 4. Data Integration process with Pentaho_
 
-Advanced Analytical Queries:
+### Advanced Analytical Queries:
 - Leverage advanced analytical queries for profound insights.
 - Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
 - Evaluate financial performance, gross margins, and profitability by location and product.
 
-Actionable Outputs:
+### Actionable Outputs:
 - Identify high-performing sales agents and locations for targeted strategies.
 - Optimize production timelines by analyzing production and shipment trends.
 - Improve financial forecasting based on cost variations and challenging-to-budget products.
 
-MicroStrategy Dashboard Creation:
+### MicroStrategy Dashboard Creation:
 - Use MicroStrategy to craft advanced dashboards.
 - Develop interactive visualizations highlighting key performance indicators, revenue trends, and cost breakdowns.
 - Include drill-down features for detailed analysis.
 
-Benefits for the Company:
+### Benefits for the Company:
 - Improved Decision-Making: Enable business analysts for informed decisions with self-service reporting, responding rapidly to market changes.
 - Cost Optimization: Identify cost-effective machine types and streamline production based on historical data, reducing operational expenses.
 - Enhanced Sales Strategies: Target marketing efforts effectively based on historical data, aligning with successful leads and converted jobs.
