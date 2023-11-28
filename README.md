@@ -68,6 +68,8 @@ ORDER BY
 ,F.time_month
 ,A.job_id;
 ```
+![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/fb3c91ce-8f1b-4da9-94b2-752bfb49dc6e)
+
 - Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
 - Evaluate financial performance, gross margins, and profitability by location and product.
 
