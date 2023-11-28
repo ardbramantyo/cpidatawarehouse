@@ -2,7 +2,7 @@
 ### Company Overview
 CPI Card Group is a prominent figure in the payment card production realm, boasting over three decades of expertise. Their global presence and allegiance to leading payment brands underscore their significance. From VISA to MasterCard, American Express, Discover, and Interac, CPI's repertoire includes a diverse array of consumer plastic cards, including cutting-edge contactless smart cards. Anchored by a secure production network spanning North America, CPI stands as a go-to for financial institutions and prepaid debit card programs alike.
 
-__Business Problem__
+### Business Problem
 Within their triumphant journey, CPI faces the complex intricacies of their operations. A labyrinthine manufacturing process intertwines with data from ERP, CRM, and finance, resulting in reporting bottlenecks. The reliance on IT for reports hampers swift decision-making. In response, CPI seeks a robust data warehouse solution to streamline operations and catapult them into a future-ready stance.
 
 ## Proposed Scenario for Data Warehouse Solution:
