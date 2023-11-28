@@ -11,16 +11,17 @@ Within their triumphant journey, CPI faces the complex intricacies of their oper
  - Extract comprehensive data from the Enterprise Resource Planning (ERP), covering card production, sales, and financials.
  - Source marketing data from the marketing department, including leads, quotes, and success rates.
  - Collect financial data from the accounting department, encompassing costs, invoices, and sales summaries.
+
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/6eaaf87b-db52-4634-88f0-1b02b5ccf540)
 
 _Picture 1. Data Sources at the CPI Card Group Data Warehouse_
 
 ### Data Modeling
-- Design a constellation schema ERD for the data warehouse.
-- Identify key dimensions like time, location, sales class, and customers, anchoring them to a central fact table capturing holistic business metrics.
+ - Design a constellation schema ERD for the data warehouse.
+ - Identify key dimensions like time, location, sales class, and customers, anchoring them to a central fact table capturing holistic business metrics.
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/891e8b63-5377-47d6-b484-98e0e6bed93a)
 
-_Picture 2. ERD Design for XYW Group_
+_Picture 2. ERD Design for CPI Card Group_
 
 ### ETL Process with Pentaho:
 - Utilize Pentaho Data Integration for seamless ETL processes.
