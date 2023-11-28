@@ -113,8 +113,14 @@ _Picture 7. Rank locations by descending annual profit margin_
 - Develop interactive visualizations highlighting key performance indicators, revenue trends, and cost breakdowns.
 - Include drill-down features for detailed analysis.
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/46f00991-6053-4a9e-b21d-1f7a0c17c455)
+
+_Picture 7. Job and Shipment Trend Dashboard_
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
+
+_Picture 8. Invoice Trend Dashboard_
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
+
+_Picture 9. Financial Performance Dashboard_
 
 ### Actionable Outputs
 - Identify high-performing sales agents and locations for targeted strategies.
@@ -129,6 +135,7 @@ _Picture 7. Rank locations by descending annual profit margin_
 - __User Empowerment:__ Empower business analysts with self-service reporting tools and user-friendly dashboards, reducing IT reliance.
 - __Strategic Insights:__ Provide executives with strategic insights into market trends, customer preferences, and industry benchmarks.
 
+## Conclusion
 This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
 
 ## Accomplishment
