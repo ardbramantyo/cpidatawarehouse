@@ -32,6 +32,7 @@ _Picture 3. Integration scenario_
 
 - Extract, transform, and load marketing data into the central fact table, ensuring data consistency and accuracy.
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
+
 _Picture 4. Data Integration process with Pentaho_
 
 ### Advanced Analytical Queries
@@ -115,9 +116,11 @@ _Picture 7. Rank locations by descending annual profit margin_
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/46f00991-6053-4a9e-b21d-1f7a0c17c455)
 
 _Picture 7. Job and Shipment Trend Dashboard_
+
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
 
 _Picture 8. Invoice Trend Dashboard_
+
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
 
 _Picture 9. Financial Performance Dashboard_
