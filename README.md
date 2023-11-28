@@ -7,12 +7,14 @@ Within their triumphant journey, CPI faces the complex intricacies of their oper
 
 ## Proposed Scenario for Data Warehouse Solution:
 
-### Data Collection:
- - Extract comprehensive data from the Enterprise Data Warehouse (EDW), covering card production, sales, and financials.
+### Data Collection
+ - Extract comprehensive data from the Enterprise Resource Planning (ERP), covering card production, sales, and financials.
  - Source marketing data from the marketing department, including leads, quotes, and success rates.
- - Collect financial data from the finance department, encompassing costs, invoices, and sales summaries.
+ - Collect financial data from the accounting department, encompassing costs, invoices, and sales summaries.
+![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/6eaaf87b-db52-4634-88f0-1b02b5ccf540)
 
-Data Modeling:
+
+### Data Modeling
 - Design a constellation schema for the data warehouse.
 - Identify key dimensions like time, location, sales class, and customers, anchoring them to a central fact table capturing holistic business metrics.
 
