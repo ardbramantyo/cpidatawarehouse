@@ -1,5 +1,50 @@
 ## End-to-End Enterprise Data Warehouse Development for CPI Card Group
-Embark on the CPI Group's comprehensive data warehouse venture. From schema design and table creation to Pentaho integration and advanced SQL analytics, witness dynamic BI dashboards that empower strategic decisions.
+### Company Overview:
+CPI Card Group is a prominent figure in the payment card production realm, boasting over three decades of expertise. Their global presence and allegiance to leading payment brands underscore their significance. From VISA to MasterCard, American Express, Discover, and Interac, CPI's repertoire includes a diverse array of consumer plastic cards, including cutting-edge contactless smart cards. Anchored by a secure production network spanning North America, CPI stands as a go-to for financial institutions and prepaid debit card programs alike.
+
+__Business Problem__:
+Within their triumphant journey, CPI faces the complex intricacies of their operations. A labyrinthine manufacturing process intertwines with data from ERP, CRM, and finance, resulting in reporting bottlenecks. The reliance on IT for reports hampers swift decision-making. In response, CPI seeks a robust data warehouse solution to streamline operations and catapult them into a future-ready stance.
+
+## Proposed Solution and End-to-End Scenario:
+
+### Data Collection:
+ - Extract comprehensive data from the Enterprise Data Warehouse (EDW), covering card production, sales, and financials.
+ - Source marketing data from the marketing department, including leads, quotes, and success rates.
+ - Collect financial data from the finance department, encompassing costs, invoices, and sales summaries.
+
+Data Modeling:
+- Design a constellation schema for the data warehouse.
+- Identify key dimensions like time, location, sales class, and customers, anchoring them to a central fact table capturing holistic business metrics.
+
+ETL Process with Pentaho:
+- Utilize Pentaho Data Integration for seamless ETL processes.
+- Extract, transform, and load marketing data into the central fact table, ensuring data consistency and accuracy.
+
+Advanced Analytical Queries:
+- Leverage advanced analytical queries for profound insights.
+- Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
+- Evaluate financial performance, gross margins, and profitability by location and product.
+
+Actionable Outputs:
+- Identify high-performing sales agents and locations for targeted strategies.
+- Optimize production timelines by analyzing production and shipment trends.
+- Improve financial forecasting based on cost variations and challenging-to-budget products.
+
+MicroStrategy Dashboard Creation:
+- Use MicroStrategy to craft advanced dashboards.
+- Develop interactive visualizations highlighting key performance indicators, revenue trends, and cost breakdowns.
+- Include drill-down features for detailed analysis.
+
+Benefits for the Company:
+- Improved Decision-Making: Enable business analysts for informed decisions with self-service reporting, responding rapidly to market changes.
+- Cost Optimization: Identify cost-effective machine types and streamline production based on historical data, reducing operational expenses.
+- Enhanced Sales Strategies: Target marketing efforts effectively based on historical data, aligning with successful leads and converted jobs.
+- Scalability and Future Growth: Design a scalable solution for growing data volumes and reporting needs, positioning for future growth.
+- User Empowerment: Empower business analysts with self-service reporting tools and user-friendly dashboards, reducing IT reliance.
+- Strategic Insights: Provide executives with strategic insights into market trends, customer preferences, and industry benchmarks.
+
+This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
+
 
 ERD Design for XYW Group:
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/891e8b63-5377-47d6-b484-98e0e6bed93a)
