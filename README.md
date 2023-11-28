@@ -142,7 +142,7 @@ _Picture 9. Financial Performance Dashboard_
 This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
 
 ## Accomplishment
-The above project is a Capstone project to get the Data Warehousing for Business Intelligence Specialization certification and to complete the mastery of using MicroStrategy, I took and passed 2 MicroStrategy certifications: Departmental Analyst and Enterprise Analyst.
+The above project is a Capstone project to get the Data Warehousing for Business Intelligence Specialization certification and to complete the mastery of using MicroStrategy, the author took and passed 2 MicroStrategy certifications: Departmental Analyst and Enterprise Analyst.
 
 [<image src="https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/01f4a6cc-18dd-4e9e-96b3-6d957ea2d09d">](https://www.coursera.org/account/accomplishments/specialization/DZR9THCTSPBR)
 [<image src="https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/f4291ccd-06ce-47f0-8b73-d808963d4232">](https://www.credential.net/c50f7231-23db-44f5-8c62-1558e836c683#gs.1e25zf)
