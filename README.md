@@ -24,7 +24,7 @@ _Picture 1. Data Sources at the CPI Card Group Data Warehouse_
 
 _Picture 2. ERD Design for CPI Card Group_
 
-### ETL Process with Pentaho:
+### ETL Process with Pentaho
 - Utilize Pentaho Data Integration for seamless ETL processes.
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/75421afb-fc73-4fbe-826b-bfbfb63abccf)
 
@@ -34,7 +34,7 @@ _Picture 3. Integration scenario_
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
 _Picture 4. Data Integration process with Pentaho_
 
-### Advanced Analytical Queries:
+### Advanced Analytical Queries
 - Develop view tables for revenue, job summarization insights.
 ```
 CREATE VIEW view_location_invoice_revenue_summary AS
@@ -69,6 +69,7 @@ ORDER BY
 ,A.job_id;
 ```
 ![image](https://github.com/ardbramantyo/cpidatawarehouse/assets/37673834/fb3c91ce-8f1b-4da9-94b2-752bfb49dc6e)
+
 _Picture 5. Location invoice revenue summary_
 - Analyze job revenue trends, sales agent productivity, production trends, and invoice patterns over time.
 - Evaluate financial performance, gross margins, and profitability by location and product.
@@ -78,10 +79,13 @@ _Picture 5. Location invoice revenue summary_
 - Optimize production timelines by analyzing production and shipment trends.
 - Improve financial forecasting based on cost variations and challenging-to-budget products.
 
-### MicroStrategy Dashboard Creation:
+### MicroStrategy Dossier Creation:
 - Use MicroStrategy to craft advanced dashboards.
 - Develop interactive visualizations highlighting key performance indicators, revenue trends, and cost breakdowns.
 - Include drill-down features for detailed analysis.
+![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/46f00991-6053-4a9e-b21d-1f7a0c17c455)
+![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/a7089b84-98c5-4a38-8650-2b68f188ab64)
+![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/e6dc8b5f-ef5d-421b-9379-e6291e4a9422)
 
 ### Benefits for the Company:
 - Improved Decision-Making: Enable business analysts for informed decisions with self-service reporting, responding rapidly to market changes.
@@ -92,10 +96,6 @@ _Picture 5. Location invoice revenue summary_
 - Strategic Insights: Provide executives with strategic insights into market trends, customer preferences, and industry benchmarks.
 
 This end-to-end solution positions CPI Card Group to wield the power of data strategically, optimizing costs, fostering growth, and making informed decisions in the competitive payment industry. The tangible benefits, coupled with user-friendly dashboards, align seamlessly with CPI's strategic objectives.
-
-
-Bellow is Data Integration process with Pentaho:
-![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/902d0dc7-79c8-4696-b8d9-0a682a89598b)
 
 __MicroStrategy Dossier__
 ![image](https://github.com/ardbramantyo/xyzdatawarehouse/assets/37673834/46f00991-6053-4a9e-b21d-1f7a0c17c455)
